@@ -59,7 +59,7 @@ img {
 }
 
 .header-img {
-    
+    /* margin-top: 31px; */
 }
 
 .header-logo {
@@ -68,6 +68,8 @@ img {
     font-size: 22px;
     font-weight: 600;
     line-height: 1.5;
+    margin-left: 12px;
+    margin-right: 257px;
 }
 
 .header-span {
@@ -89,10 +91,11 @@ letter-spacing: 0.78px;
 }
 
 .nav-link {
-font-size: 14px;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.28px;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 .header-list {
@@ -102,8 +105,22 @@ letter-spacing: 0.28px;
 }
 
 .header-link {
-font-size: 14px;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.28px;
+    color: rgba(255, 255, 255, 0.78);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.header-btn {
+    border:none;
+    border-radius: 8px;
+background-color: #FF6E30;
+color: #FDF5FF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
