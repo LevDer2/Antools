@@ -122,7 +122,9 @@ line-height: 1.5;
 /* hero */
 
 .hero {
-
+    background-image: url(../img/illustration.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .hero-title {
@@ -141,15 +143,25 @@ line-height: 140%;
 
 .hero-text {
     color: rgba(255, 255, 255, 0.55);
-font-family: Poppins;
 font-size: 18px;
-font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
 }
 
-.hero-div {
-    border-radius: 15px;
-border: 1.5px solid rgba(255, 255, 255, 0.10);
-background: #283036;
+.hero-form {
+    padding: 8px 11px 20px;
+}
+
+.hero-btn {
+    border-radius: 8px;
+background: #FF6E30;
+padding: 12px 36px;
+border: none;
+}
+
+.hero-input {
+    color: rgba(255, 255, 255, 0.38);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.5;
 }
