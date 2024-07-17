@@ -34,10 +34,10 @@ img {
 
 /* Container */
 .container {
-    width: 1224px;
+    width: 1246px;
     outline: solid red;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -213,4 +213,73 @@ width: 427px;
 margin-right: auto;
 margin-left: auto;
 text-align: center;
+}
+
+.tools-list {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tools-item {
+    /* border-radius: 15px; */
+background: #1E252B;
+padding: 34px 33px 40px 33px;
+}
+
+.tools-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 31px;
+}
+
+.tools-name {
+    color: rgba(255, 255, 255, 0.78);
+font-size: 24px;
+font-weight: 500;
+line-height: 1.5;
+}
+
+.tools-price {
+    color: rgba(255, 165, 55, 0.55);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+}
+
+.tools-description {
+    color: rgba(255, 255, 255, 0.55);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.87; /* 187.5% */
+width: 326px;
+margin-bottom: 37px;
+}
+
+.tools-btn {
+background: #1E252B;
+border: none;
+color: rgba(255, 255, 255, 0.55);
+font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
+padding: 9px 35px;
+margin-left: auto;
+}
+
+.tools-button {
+    border: none;
+    background-color: transparent;
+}
+
+.tools-follow {
+    display: flex;
+    align-items: center;
+}
+
+.tools-boxs {
+    display: flex;
+    gap: 18px;
 }
