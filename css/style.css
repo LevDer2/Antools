@@ -123,6 +123,7 @@ font-size: 16px;
 font-weight: 600;
 line-height: 1.5;
 padding: 12px 28px;
+cursor: pointer;
 }
 
 /* hero */
@@ -175,6 +176,7 @@ background: #FF6E30;
 padding: 12px 36px;
 border: none;
 display: block;
+cursor: pointer;
 }
 
 .hero-input {
@@ -285,7 +287,7 @@ margin-left: auto;
 }
 
 .tools-load {
-    /* border-radius: 8px;
+    border-radius: 8px;
 border: 1px solid rgba(255, 255, 255, 0.10);
 background: #1E252B;
 border: none;
@@ -296,15 +298,16 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 text-align: center;
-visibility: visible; */
+visibility: visible;
+margin-left: 520px;
+margin-right: 520px;
 margin-top: 100px;
+
 border: 1px solid rgba(255, 255, 255, .1019607843);
 background-color: transparent;
 color: #ff6e30;
-padding: 5px 35px;
-min-height: 60px;
+padding: 17px 38px;
 display: inline-flex;
-position: relative;
 cursor: pointer;
 border-radius: 8px;
 white-space: nowrap;
@@ -313,6 +316,4 @@ font-weight: 600;
 line-height: 150%;
 letter-spacing: 0;
 text-align: left;
-justify-content: center;
-    align-items: center;
 }
