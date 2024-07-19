@@ -312,3 +312,38 @@ letter-spacing: 0;
 text-align: left;
 }
 
+/* brand */
+
+.brand {
+    margin-top: 200px;
+    border-radius: 25px;
+border: 2px solid rgba(255, 255, 255, 0.05);
+background: rgba(44, 53, 61, 0.20);
+backdrop-filter: blur(25px);
+width: 1224px;
+}
+
+.brand-title {
+    color: rgba(255, 255, 255, 0.80);
+font-size: 24px;
+font-weight: 500;
+line-height: 1.5;
+text-align: center;
+margin-top: 55px;
+margin-bottom: 56px;
+}
+
+.brand-list{
+    padding:0 auto;
+    align-items:center;
+    display:flex;
+    Якщо не працює то постав їм падінги я забувся там не марджіни
+    }
+
+.brand-item {
+    margin-right:107px;
+    }
+
+.brand-item:last-child {
+    margin-right:0;
+    }
