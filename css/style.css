@@ -274,11 +274,13 @@ font-weight: 600;
 line-height: 1.5;
 padding: 9px 35px;
 margin-left: auto;
+cursor: pointer;
 }
 
 .tools-button {
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .tools-follow {
@@ -442,11 +444,13 @@ font-weight: 600;
 line-height: 1.5;
 padding: 9px 35px;
 margin-left: auto;
+cursor: pointer;
 }
 
 .newcomer-button {
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .newcomer-follow {
