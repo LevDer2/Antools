@@ -287,22 +287,17 @@ margin-left: auto;
 }
 
 .tools-load {
-    border-radius: 8px;
-border: 1px solid rgba(255, 255, 255, 0.10);
 background: #1E252B;
 border: none;
-color: #FF6E30;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.5;
 display: flex;
 align-items: center;
 text-align: center;
-visibility: visible;
 margin-left: 520px;
 margin-right: 520px;
 margin-top: 100px;
-
 border: 1px solid rgba(255, 255, 255, .1019607843);
 background-color: transparent;
 color: #ff6e30;
@@ -310,10 +305,10 @@ padding: 17px 38px;
 display: inline-flex;
 cursor: pointer;
 border-radius: 8px;
-white-space: nowrap;
 font-size: 16px;
 font-weight: 600;
 line-height: 150%;
 letter-spacing: 0;
 text-align: left;
 }
+
