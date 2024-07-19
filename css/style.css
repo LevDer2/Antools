@@ -328,6 +328,9 @@ background: rgba(44, 53, 61, 0.20);
 backdrop-filter: red;
 padding-top: 55px;
 padding-bottom: 56px;
+background-image: url(../img/elipse.png);
+background-repeat: no-repeat;
+background-position: top left;
 }
 
 .brand-title {
