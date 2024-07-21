@@ -177,6 +177,10 @@ padding: 12px 36px;
 border: none;
 display: block;
 cursor: pointer;
+color: #FFF;
+font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
 }
 
 .hero-input {
@@ -514,4 +518,5 @@ letter-spacing: 0.21px;
 width: 393px;
 display: flex;
 margin-left: 643px;
+align-items: top;
 }
