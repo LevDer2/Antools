@@ -131,7 +131,8 @@ cursor: pointer;
 .hero {
     background-image: url(../img/illustration.png);
     background-repeat: no-repeat;
-    background-position: 851px;
+    background-position: right;
+    padding-top: 100px;
 }
 
 .hero-title {
@@ -477,6 +478,11 @@ cursor: pointer;
     margin-bottom: 250px;
 }
 
+.testimonial-list {
+    display: flex;
+    align-items: center;
+}
+
 .testimonial-img {
     background-image: url(./elipse1) url(./elipse2)
 }
@@ -518,9 +524,26 @@ font-weight: 400;
 line-height: 2.14; /* 214.286% */
 letter-spacing: 0.21px;
 width: 393px;
-display: flex;
-margin-left: auto;
-align-items: top;
+margin-left: 57px;
+}
+
+.testimonial-lins {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.line {
+    width: 44px;
+    height: 6px;
+    border-radius: 4px;
+    background: #283036;
+    margin-top: 101px;
+}
+
+.current {
+    background: #FF6E30;
 }
 
 /* join */
