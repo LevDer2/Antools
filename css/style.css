@@ -64,10 +64,6 @@ img {
     margin-right:auto;
 }
 
-.header-img {
-    /* margin-top: 31px; */
-}
-
 .header-logo {
     color: rgba(255, 255, 255, 0.90);
     font-size: 22px;
@@ -87,11 +83,6 @@ letter-spacing: 0.78px;
     display: flex;
     gap: 50px;
     align-items: center;
-}
-
-.contacts-link:hover,
-.nav-link:hover {
-
 }
 
 .nav-link {
@@ -234,6 +225,16 @@ text-align: center;
     justify-content: center;
 }
 
+.tools-item:hover {
+    border-radius: 15px;
+background: rgba(40, 48, 54, 0.60);
+backdrop-filter: blur(25px);
+width: 392px;
+background-image: url(../img/ellipse-tool.png);
+background-repeat: no-repeat;
+background-position: top right;
+}
+
 .tools-item {
     /* border-radius: 15px; */
 background: #1E252B;
@@ -270,6 +271,11 @@ width: 326px;
 margin-bottom: 37px;
 }
 
+.tools-btn:hover {
+    border-radius: 8px;
+background: #FF6E30;
+}
+
 .tools-btn {
 background: #1E252B;
 border: none;
@@ -280,6 +286,7 @@ line-height: 1.5;
 padding: 9px 35px;
 margin-left: auto;
 cursor: pointer;
+border-radius: 8px;
 }
 
 .tools-button {
@@ -408,6 +415,15 @@ border: none;
     justify-content: center;
 }
 
+.newcomer-item:hover {
+    border-radius: 15px;
+background: rgba(40, 48, 54, 0.60);
+backdrop-filter: blur(25px);
+background-image: url(../img/elipse-newcomer.png);
+background-repeat: no-repeat;
+background-position: top right;
+}
+
 .newcomer-item {
     /* border-radius: 15px; */
 background: #1E252B;
@@ -444,6 +460,11 @@ width: 245px;
 margin-bottom: 37px;
 }
 
+.newcomer-btn:hover {
+    border-radius: 8px;
+background: #FF6E30;
+}
+
 .newcomer-btn {
 background: #1E252B;
 border: none;
@@ -454,6 +475,7 @@ line-height: 1.5;
 padding: 9px 35px;
 margin-left: auto;
 cursor: pointer;
+border-radius: 8px;
 }
 
 .newcomer-button {
