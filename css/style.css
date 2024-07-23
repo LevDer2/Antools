@@ -613,3 +613,38 @@ display: block;
 border: none;
 width: 126px;
 }
+
+.footer-logo {
+    color: rgba(255, 255, 255, 0.90);
+font-size: 22px;
+font-weight: 600;
+line-height: 1.5;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.90);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.55);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.78; /* 178.571% */
+}
+
+.address-title {
+    color: rgba(255, 255, 255, 0.90);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.5;
+}
+
+.addres-link {
+    color: rgba(255, 255, 255, 0.55);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+}
