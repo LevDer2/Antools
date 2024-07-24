@@ -19,6 +19,8 @@
     --red:red;
     --brand:rgba(44, 53, 61, 0.20);
     --brand-title:rgba(255, 255, 255, 0.80);
+    --line:#283036;
+    --footer-line:rgba(255,255,255,.1490196078);
 }
 
 body {
@@ -292,6 +294,7 @@ margin-bottom: 37px;
 .tools-btn:hover {
     border-radius: 8px;
 background: var(--header-btn);
+color: var(--hero-btn);
 }
 
 .tools-btn {
@@ -470,7 +473,7 @@ line-height: 1.5;
 }
 
 .newcomer-description {
-    color: rgba(255, 255, 255, 0.55);
+    color: var(--nav);
 font-size: 16px;
 font-weight: 400;
 line-height: 1.87; /* 187.5% */
@@ -480,13 +483,14 @@ margin-bottom: 37px;
 
 .newcomer-btn:hover {
     border-radius: 8px;
-background: #FF6E30;
+background: var(--header-btn);
+color: var(--hero-btn);
 }
 
 .newcomer-btn {
-background: #1E252B;
+background: var(--body);
 border: none;
-color: rgba(255, 255, 255, 0.55);
+color: var(--nav);
 font-size: 16px;
 font-weight: 600;
 line-height: 1.5;
@@ -527,38 +531,8 @@ border-radius: 8px;
     background-image: url(./elipse1) url(./elipse2)
 }
 
-.testimonial-box {
-    border-radius: 8px;
-border: 1px solid rgba(255, 255, 255, 0.10);
-background: rgba(40, 48, 54, 0.20);
-backdrop-filter: blur(25px);
-width: 266px;
-}
-
-.testimonial-name {
-    color: rgba(255, 253, 253, 0.78);
-font-size: 26px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.39px;
-padding-top: 10px;
-padding-left: 22px;
-padding-right: 22px;
-display: flex;
-}
-
-.testimonial-manedger {
-    color: rgba(255, 253, 253, 0.55);
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-padding-bottom: 16px;
-padding-left: 22px;
-display: flex;
-}
-
 .testimonial-text {
-    color: rgba(255, 255, 255, 0.78);
+    color: var(--header);
 font-size: 14px;
 font-weight: 400;
 line-height: 2.14; /* 214.286% */
@@ -578,12 +552,12 @@ margin-left: 57px;
     width: 44px;
     height: 6px;
     border-radius: 4px;
-    background: #283036;
+    background: var(--line);
     margin-top: 101px;
 }
 
 .current {
-    background: #FF6E30;
+    background: var(--header-btn);
 }
 
 /* join */
@@ -593,7 +567,7 @@ margin-left: 57px;
 }
 
 .join-title {
-    color: rgba(255, 255, 255, 0.90);
+    color: var(--logo);
     display: flex;
     justify-content: center;
     align-items:center;
@@ -604,7 +578,7 @@ padding-bottom: 25px;
 }
 
 .join-text {
-    color: rgba(255, 255, 255, 0.55);
+    color: var(--nav);
     display: flex;
     justify-content: center;
     align-items:center;
@@ -621,8 +595,8 @@ margin-bottom: 100px;
 .join-form {
     padding: 8px 11px 8px 55px;
     border-radius: 15px;
-border: 1.5px solid rgba(255, 255, 255, 0.10);
-background-color: #283036;
+border: 1.5px solid var(--form);
+background-color: var(--line);
 width: 549px;
 display: flex;
 gap: 106px;
@@ -632,12 +606,12 @@ margin-left: 338px;
 
 .join-btn {
     border-radius: 8px;
-background: #FF6E30;
+background: var(--header-btn);
 padding: 12px 36px;
 border: none;
 display: block;
 cursor: pointer;
-color: #FFF;
+color: var(--hero-btn);
 font-size: 16px;
 font-weight: 600;
 line-height: 1.5;
@@ -645,7 +619,7 @@ margin-left: auto;
 }
 
 .join-input {
-    color: rgba(255, 255, 255, 0.38);
+    color: var(--hero-input);
 font-size: 14px;
 font-weight: 400;
 line-height: 1.5;
@@ -658,7 +632,7 @@ width: 126px;
 /* footer */
 
 .footer {
-    border-top: 1px solid rgba(255,255,255,.1490196078);
+    border-top: 1px solid var(--footer-line);
     display: block;
 }
 
@@ -680,14 +654,14 @@ width: 126px;
 }
 
 .footer-logo {
-    color: rgba(255, 255, 255, 0.90);
+    color: var(--logo);
 font-size: 22px;
 font-weight: 600;
 line-height: 1.5;
 }
 
 .footer-copyright {
-    color: rgba(255, 255, 255, 0.90);
+    color: var(--logo);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
@@ -695,7 +669,7 @@ padding-bottom: 21px;
 }
 
 .footer-text {
-    color: rgba(255, 255, 255, 0.55);
+    color: var(--nav);
 font-size: 14px;
 font-weight: 400;
 line-height: 1.78; /* 178.571% */
@@ -703,7 +677,7 @@ width: 260px;
 }
 
 .address-title {
-    color: rgba(255, 255, 255, 0.90);
+    color: var(--logo);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.5;
@@ -715,7 +689,7 @@ padding-bottom: 20px;
 }
 
 .addres-link {
-    color: rgba(255, 255, 255, 0.55);
+    color: var(--nav);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
@@ -723,7 +697,7 @@ padding-bottom: 10px;
 }
 
 .footer-title {
-    color: rgba(255, 255, 255, 0.90);
+    color: var(--logo);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.5;
@@ -735,7 +709,7 @@ padding-bottom: 20px;
 }
 
 .footer-link {
-    color: rgba(255, 255, 255, 0.55);
+    color: var(--nav);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
