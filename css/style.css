@@ -2,6 +2,19 @@
 
 :root {
     --body:#1E252B;
+    --logo:rgba(255, 255, 255, 0.90);
+    --nav:rgba(255, 255, 255, 0.55);
+    --header:rgba(255, 255, 255, 0.78);
+    --header-btn:#FF6E30;
+    --white:#FDF5FF;
+    --form:rgba(255, 255, 255, 0.10);
+    --form-text:#283036;
+    --hero-btn:#FFF;
+    --hero-input:rgba(255, 255, 255, 0.38);
+    --item:rgba(40, 48, 54, 0.60);
+    --item-bg:#1E252B;
+    --price:rgba(255, 165, 55, 0.55);
+    --load:rgba(255, 255, 255, .1019607843);
 }
 
 body {
@@ -65,7 +78,7 @@ img {
 }
 
 .header-logo {
-    color: rgba(255, 255, 255, 0.90);
+    color: var(--logo);
     font-size: 22px;
     font-weight: 600;
     line-height: 1.5;
@@ -86,7 +99,7 @@ letter-spacing: 0.78px;
 }
 
 .nav-link {
-    color: rgba(255, 255, 255, 0.55);
+    color: var(--nav);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -99,7 +112,7 @@ letter-spacing: 0.78px;
 }
 
 .header-link {
-    color: rgba(255, 255, 255, 0.78);
+    color: var(--header);
 font-size: 16px;
 font-weight: 600;
 line-height: 1.5;
@@ -108,8 +121,8 @@ line-height: 1.5;
 .header-btn {
     border:none;
     border-radius: 8px;
-background-color: #FF6E30;
-color: #FDF5FF;
+background-color: var(--header-btn);
+color: var(--white);
 font-size: 16px;
 font-weight: 600;
 line-height: 1.5;
@@ -127,7 +140,7 @@ cursor: pointer;
 }
 
 .hero-title {
-    color: rgba(255, 255, 255, 0.90);
+    color: var(--logo);
 font-size: 50px;
 font-weight: 500;
 line-height: 1.4; /* 70px */
@@ -135,14 +148,14 @@ width: 600px;
 }
 
 .hero-span {
-    color: #FF6E30;
+    color: var(--header-btn);
 font-size: 50px;
 font-weight: 500;
 line-height: 140%;
 }
 
 .hero-text {
-    color: rgba(255, 255, 255, 0.55);
+    color: var(--nav);
 font-size: 18px;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
@@ -154,8 +167,8 @@ padding-bottom: 60px;
 .hero-form {
     padding: 8px 11px 8px 55px;
     border-radius: 15px;
-border: 1.5px solid rgba(255, 255, 255, 0.10);
-background-color: #283036;
+border: 1.5px solid var(--form);
+background-color: var(--form-text);
 width: 498px;
 display: flex;
 gap: 106px;
@@ -164,19 +177,19 @@ margin-bottom: 121px;
 
 .hero-btn {
     border-radius: 8px;
-background: #FF6E30;
+background: var(--header-btn);
 padding: 12px 36px;
 border: none;
 display: block;
 cursor: pointer;
-color: #FFF;
+color: var(--hero-btn);
 font-size: 16px;
 font-weight: 600;
 line-height: 1.5;
 }
 
 .hero-input {
-    color: rgba(255, 255, 255, 0.38);
+    color: var(--hero-input);
 font-size: 14px;
 font-weight: 400;
 line-height: 1.5;
@@ -199,7 +212,7 @@ width: 195px;
 }
 
 .tools-title {
-    color: rgba(255, 255, 255, 0.90);
+    color: var(--logo);
 text-align: center;
 font-size: 48px;
 font-weight: 500;
@@ -208,7 +221,7 @@ margin-bottom: 25px;
 }
 
 .tools-text {
-    color: rgba(255, 255, 255, 0.55);
+    color: var(--nav);
 font-size: 18px;
 font-weight: 500;
 line-height: 30px; /* 166.667% */
@@ -223,11 +236,12 @@ text-align: center;
     gap: 25px;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 90px;
 }
 
 .tools-item:hover {
     border-radius: 15px;
-background: rgba(40, 48, 54, 0.60);
+background: var(--item);
 backdrop-filter: blur(25px);
 width: 392px;
 background-image: url(../img/ellipse-tool.png);
@@ -237,7 +251,7 @@ background-position: top right;
 
 .tools-item {
     /* border-radius: 15px; */
-background: #1E252B;
+background: var(--item-bg);
 padding: 34px 33px 40px 33px;
 }
 
@@ -249,21 +263,21 @@ padding: 34px 33px 40px 33px;
 }
 
 .tools-name {
-    color: rgba(255, 255, 255, 0.78);
+    color: var(--header);
 font-size: 24px;
 font-weight: 500;
 line-height: 1.5;
 }
 
 .tools-price {
-    color: rgba(255, 165, 55, 0.55);
+    color: var(--price);
 font-size: 18px;
 font-weight: 400;
 line-height: 1.5;
 }
 
 .tools-description {
-    color: rgba(255, 255, 255, 0.55);
+    color: var(--nav);
 font-size: 16px;
 font-weight: 400;
 line-height: 1.87; /* 187.5% */
@@ -273,13 +287,13 @@ margin-bottom: 37px;
 
 .tools-btn:hover {
     border-radius: 8px;
-background: #FF6E30;
+background: var(--header-btn);
 }
 
 .tools-btn {
-background: #1E252B;
+background: var(--body);
 border: none;
-color: rgba(255, 255, 255, 0.55);
+color: var(--nav);
 font-size: 16px;
 font-weight: 600;
 line-height: 1.5;
@@ -306,7 +320,7 @@ border-radius: 8px;
 }
 
 .tools-load {
-background: #1E252B;
+background: var(--body);
 border: none;
 font-size: 20px;
 font-weight: 500;
@@ -317,9 +331,9 @@ text-align: center;
 margin-left: 520px;
 margin-right: 520px;
 margin-top: 100px;
-border: 1px solid rgba(255, 255, 255, .1019607843);
+border: 1px solid var(--load);
 background-color: transparent;
-color: #ff6e30;
+color: var(--header-btn);
 padding: 17px 38px;
 display: inline-flex;
 cursor: pointer;
