@@ -72,6 +72,7 @@ img {
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-right: 257px;
 }
 
 .header .container{
@@ -88,7 +89,6 @@ img {
     font-size: 22px;
     font-weight: 600;
     line-height: 1.5;
-    margin-right: 257px;
 }
 
 .header-span {
@@ -215,6 +215,7 @@ width: 195px;
 .tools {
     padding-top: 200px;
     padding-bottom: 200px;
+    text-align: center;
 }
 
 .tools-title {
@@ -289,6 +290,7 @@ font-weight: 400;
 line-height: 1.87;
 width: 326px;
 margin-bottom: 37px;
+text-align: start;
 }
 
 .tools-btn:hover {
@@ -308,6 +310,17 @@ padding: 9px 35px;
 margin-left: auto;
 cursor: pointer;
 border-radius: 8px;
+}
+
+.tools-visit {
+    color: var(--nav);
+font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
+}
+
+.tools-visit:hover {
+    color: var(--hero-btn);
 }
 
 .tools-button {
@@ -335,8 +348,6 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 text-align: center;
-margin-left: 520px;
-margin-right: 520px;
 margin-top: 100px;
 border: 1px solid var(--load);
 background-color: transparent;
@@ -501,6 +512,17 @@ cursor: pointer;
 border-radius: 8px;
 }
 
+.newcomer-visit {
+    color: var(--nav);
+font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
+}
+
+.newcomer-visit:hover {
+    color: var(--hero-btn);
+}
+
 .newcomer-button {
     border: none;
     background-color: transparent;
@@ -518,10 +540,6 @@ border-radius: 8px;
 }
 
 /* testimonial */
-
-.testimonial {
-    margin-bottom: 250px;
-}
 
 .testimonial-list {
     display: flex;
@@ -699,6 +717,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 margin-bottom: 10px;
+font-style: normal;
 }
 
 .footer-title {
