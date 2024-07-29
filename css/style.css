@@ -295,7 +295,7 @@ margin-bottom: 37px;
 text-align: start;
 }
 
-.tools-btn:hover {
+/* .tools-btn:hover {
     border-radius: 8px;
 background: var(--header-btn);
 color: var(--hero-btn);
@@ -311,7 +311,7 @@ line-height: 1.5;
 padding: 9px 35px;
 cursor: pointer;
 border-radius: 8px;
-}
+} */
 
 .tools-visit {
     color: var(--nav);
@@ -319,10 +319,17 @@ font-size: 16px;
 font-weight: 600;
 line-height: 1.5;
 margin-left: auto;
+background: var(--body);
+border: none;
+padding: 9px 35px;
+cursor: pointer;
+border-radius: 8px;
 }
 
 .tools-visit:hover {
-    color: var(--hero-btn);
+    border-radius: 8px;
+background: var(--header-btn);
+color: var(--hero-btn);
 }
 
 .tools-button {
@@ -495,7 +502,7 @@ width: 245px;
 margin-bottom: 37px;
 }
 
-.newcomer-btn:hover {
+/* .newcomer-btn:hover {
     border-radius: 8px;
 background: var(--header-btn);
 color: var(--hero-btn);
@@ -511,18 +518,25 @@ line-height: 1.5;
 padding: 9px 35px;
 cursor: pointer;
 border-radius: 8px;
-}
+} */
 
 .newcomer-visit {
-    color: var(--nav);
+margin-left: auto;
+background: var(--body);
+border: none;
+color: var(--nav);
 font-size: 16px;
 font-weight: 600;
 line-height: 1.5;
-margin-left: auto;
+padding: 9px 35px;
+cursor: pointer;
+border-radius: 8px;
 }
 
 .newcomer-visit:hover {
-    color: var(--hero-btn);
+    border-radius: 8px;
+background: var(--header-btn);
+color: var(--hero-btn);
 }
 
 .newcomer-button {
